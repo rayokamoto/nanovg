@@ -6,7 +6,7 @@ project(${PROJECT_NAME})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-D__STDC_CONSTANT_MACROS")
 
-set(SRC_DIR "../src")
+set(SRC_DIR "src")
 
 file(GLOB SRCS ${SRC_DIR}/*.c)
 file(GLOB HDRS ${SRC_DIR}/*.h)
